@@ -80,10 +80,13 @@ function draw() {
 }
 
 function mainMenu(){
-  background(220);
-  
+  background(181,215,168);
+
+  textSize(20);
+  textFont('Impact');
   fill('black');
   text('Click an activity', 200, 200);
+  
 }
 
 /*****
