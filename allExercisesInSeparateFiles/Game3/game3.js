@@ -15,6 +15,7 @@ function game3Setup(){
   game2Button.show();
   game3Button.hide();
   game4Button.show();
+  game5Button.show();
   
   stroke(0);
   fill("red");

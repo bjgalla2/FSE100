@@ -11,9 +11,10 @@ function game1Setup(){
   // Hide the Game 1 button, show all the other navigation buttons
   menuButton.show();
   game1Button.hide();
-  game2Button.hide();
-  game3Button.hide();
-  game4Button.hide();
+  game2Button.show();
+  game3Button.show();
+  game4Button.show();
+  game5Button.show();
   
   // Set the size of the owl image
   owlImage.resize(150, 150);

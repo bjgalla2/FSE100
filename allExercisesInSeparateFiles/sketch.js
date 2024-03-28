@@ -3,7 +3,7 @@
  *****/
 
 let currentActivity = 0;
-let menuButton, game1Button, game2Button, game3Button, game4Button;
+let menuButton, game1Button, game2Button, game3Button, game4Button, game5Button;
 
 /***** 
   * If you want to load images or sounds into your application,
@@ -15,6 +15,7 @@ function preload(){
   game2Preload();
   game3Preload();
   game4Preload();
+  game5Preload();
 }
 
 function switchToMM(){
@@ -27,6 +28,7 @@ function switchToMM(){
   game2Button.show();
   game3Button.show();
   game4Button.show();
+  game5Button.show();
 }
 
 function setup() {
@@ -56,6 +58,11 @@ function setup() {
   game4Button.position(10, 200);
   game4Button.mousePressed(game4Setup);
   game4Button.show();
+
+  game5Button = createButton('Typing');
+  game5Button.position(10, 250);
+  game5Button.mousePressed(game5Setup);
+  game5Button.show();
 }
 
 
@@ -75,6 +82,9 @@ function draw() {
       break;
     case 4: 
       game4Draw();
+      break;
+    case 5: 
+      game5Draw();
       break;
   }
 }

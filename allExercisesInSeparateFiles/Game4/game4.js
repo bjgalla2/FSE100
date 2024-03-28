@@ -12,6 +12,7 @@ function game4Setup(){
   game2Button.show();
   game3Button.show();
   game4Button.hide();
+  game5Button.show();
 }
 
 function game4Draw(){
