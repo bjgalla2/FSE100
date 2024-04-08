@@ -14,6 +14,7 @@ function game1Setup(){
   game2Button.show();
   game3Button.show();
   game4Button.show();
+  game5Button.show();
   
   // Set the size of the owl image
   
